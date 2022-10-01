@@ -1,0 +1,47 @@
+[
+    {
+        "Name": "E-PHONES",
+        "id": 1,
+        "Type": "FULL-STACK PROJECTR",
+        "Live-demo": "https://phone-stokes.web.app/",
+        "imageLink": "images/img1.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "BIKES- PORTAL",
+        "id": 2,
+        "Type": "FULL-STACK PROJECTR",
+        "Live-demo": "https://bike-station-portal.web.app/",
+        "imageLink": "images/img2.png",
+        "description": "This is a full stack project where you can see a plethora of.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "E-PHONES",
+        "id": 1,
+        "Type": "FULL-STACK PROJECTR",
+        "Live-demo": "https://phone-stokes.web.app/",
+        "imageLink": "images/img1.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "E-PHONES",
+        "id": 1,
+        "Type": "FULL-STACK PROJECTR",
+        "Live-demo": "https://phone-stokes.web.app/",
+        "imageLink": "images/img1.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "E-PHONES",
+        "id": 1,
+        "Type": "FULL-STACK PROJECTR",
+        "Live-demo": "https://phone-stokes.web.app/",
+        "imageLink": "images/img1.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    }
+]
