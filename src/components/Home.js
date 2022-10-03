@@ -60,6 +60,8 @@ const Home = () => {
         css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
         document.body.appendChild(css);
     };
+
+    
     return (
         <div className='row align-items-center m-2 bg-clor p-3'>
 
@@ -71,11 +73,11 @@ const Home = () => {
             </div>
             <div className="col-lg-6 col-sm-6 col-md-6">
                 <img className='w-50' src={img} alt="" />
-                <div className='mx-3 fw-bold'>
+                <div className='mx-3 fw-bold text-white'>
                     <p>Developmet is an art </p>
                 </div>
                 <br />
-                <button className='btn btn-danger'>Projects</button>
+                <button className='btn btn-light'>Projects</button>
             </div>
         </div>
     );

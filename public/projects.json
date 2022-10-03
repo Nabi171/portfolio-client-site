@@ -3,8 +3,8 @@
         "Name": "E-PHONES",
         "id": 1,
         "Type": "FULL-STACK PROJECTR",
-        "Live-demo": "https://phone-stokes.web.app/",
-        "imageLink": "images/img1.png",
+        "live": "https://phone-stokes.web.app/",
+        "imageLink": "https://i.ibb.co/2P1tKML/i1.png",
         "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
         "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
     },
@@ -12,36 +12,117 @@
         "Name": "BIKES- PORTAL",
         "id": 2,
         "Type": "FULL-STACK PROJECTR",
-        "Live-demo": "https://bike-station-portal.web.app/",
-        "imageLink": "images/img2.png",
+        "live": "https://bike-station-portal.web.app/",
+        "imageLink": "https://i.ibb.co/h8Kw9YY/p2.png",
         "description": "This is a full stack project where you can see a plethora of.",
         "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
     },
     {
-        "Name": "E-PHONES",
-        "id": 1,
-        "Type": "FULL-STACK PROJECTR",
-        "Live-demo": "https://phone-stokes.web.app/",
-        "imageLink": "images/img1.png",
-        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
-        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+        "Name": "SCIENTIFIC ZONE",
+        "id": 3,
+        "Type": "FRONT END PROJECTR",
+        "live": "https://techno-fdaab.web.app/",
+        "imageLink": "https://i.ibb.co/pbsbkFg/p3.png",
+        "description": "This is a full stack project where in this site you can check out  any scientific tool if you where new user you have to login first. after login you can purchase any scientific products..",
+        "implant": "  React, React Router,React Bootstrap,firebase"
     },
     {
-        "Name": "E-PHONES",
-        "id": 1,
-        "Type": "FULL-STACK PROJECTR",
-        "Live-demo": "https://phone-stokes.web.app/",
-        "imageLink": "images/img1.png",
+        "Name": "MONEY EXPANCES CALCULATOR",
+        "id": 4,
+        "Type": "FRONTEND PROJECT",
+        "live": "https://modest-visvesvaraya-4db358.netlify.app/",
+        "imageLink": "https://i.ibb.co/rc2Vh3R/monet.png",
         "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
-        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+        "implant": "html,css,javascript, Bootstrap and css animation"
     },
     {
-        "Name": "E-PHONES",
-        "id": 1,
-        "Type": "FULL-STACK PROJECTR",
-        "Live-demo": "https://phone-stokes.web.app/",
-        "imageLink": "images/img1.png",
+        "Name": "INFLUENCER PRODUCTS",
+        "id": 5,
+        "Type": "FRONTEND PROJECT",
+        "live": "https://nabi171.github.io/Assignment-202/",
+        "imageLink": "https://i.ibb.co/M6SFrWC/influencer.png",
         "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
-        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+        "implant": " Html,css and css animation"
+    },
+    {
+        "Name": "CONVENTION CENTER",
+        "id": 6,
+        "Type": "FRONT END PROJECT",
+        "live": "https://cranky-saha-bef298.netlify.app/",
+        "imageLink": "https://i.ibb.co/PjvzqBt/p5.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css and bootstrap"
+    },
+    {
+        "Name": "Bengos Phones",
+        "id": 7,
+        "Type": "FRONT END PROJECT",
+        "live": "https://phones69.netlify.app/",
+        "imageLink": "https://i.ibb.co/NKYBSL4/p6.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css and js"
+    },
+    {
+        "Name": "ALKESTRICO LIBRARY",
+        "id": 8,
+        "Type": "FRONT END PROJECT",
+        "live": "https://bright-smakager-969b6d.netlify.app/#home",
+        "imageLink": "https://i.ibb.co/dbFsxnB/dfe.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css,javascript and react"
+    },
+    {
+        "Name": "CAR PARK",
+        "id": 9,
+        "Type": "FRONT END PROJECT",
+        "live": "https://harmonious-lolly-1fdae9.netlify.app/home",
+        "imageLink": "https://i.ibb.co/WgDQtwv/p11.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css,Js and react"
+    },
+    {
+        "Name": "Copa",
+        "id": 10,
+        "Type": "FRONT END FIRST PROJECT",
+        "live": "https://nabi171.github.io/assignment-ripo-2/",
+        "imageLink": "https://i.ibb.co/4RqGwwt/11.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css"
+    },
+    {
+        "Name": "HONDA BRS",
+        "id": 11,
+        "Type": "FRONT END FIRST PROJECT",
+        "live": "https://cocky-jones-531f2f.netlify.app/",
+        "imageLink": "https://i.ibb.co/zn6DzDH/12.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css and Bootstrap"
+    },
+    {
+        "Name": "FIRE GUN",
+        "id": 12,
+        "Type": "FRONT END FIRST PROJECT",
+        "live": "https://thunderous-choux-34f13a.netlify.app/",
+        "imageLink": "https://i.ibb.co/s59Prvp/15.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css,Js,React,React Bootstrap"
+    },
+    {
+        "Name": "EMA STORE",
+        "id": 13,
+        "Type": "FRONT END FIRST PROJECT",
+        "live": "https://sensational-froyo-b6dfd0.netlify.app/",
+        "imageLink": "https://i.ibb.co/cXFmkjX/17.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css ,Bootstrap,React"
+    },
+    {
+        "Name": "AL-HADAF FOUNDATION",
+        "id": 14,
+        "Type": "FRONT END FIRST PROJECT",
+        "live": "https://ahf.netlify.app/index.html",
+        "imageLink": "https://i.ibb.co/ftxFwCh/ahf.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css ,Bootstrap,CSS animation"
     }
 ]

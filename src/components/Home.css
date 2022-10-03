@@ -15,5 +15,28 @@ h5 span{
 }
 .bg-clor{
     background-color: 
+    #000000;
+}
+.bg-clor2{
+    color: 
     #F2BDC2;
+}
+.bg-clor3{
+    background-color: 
+    #F2BDC2;
+}
+.imagesforp{
+    width: 100px;
+    height: 100px;
+    clip-path: circle();
+    box-shadow: #F2BDC2;
+    border: #F2BDC2;
+
+}
+.imagesforp:hover{
+    width: 120px;
+    height: 110px;
+    clip-path: circle();
+    scale: 1.2;
+    transition-duration: 1s ;
 }
