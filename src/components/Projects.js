@@ -7,8 +7,8 @@ const Projects = () => {
         fetch('projects.json').then(res => res.json()).then(data => setProjects(data))
     }, [])
     return (
-        <div className=''>
-            <p>The total is {projects.length}</p>
+        <div className='container'>
+
             <div className="row">
                 {
                     projects.map(project => <ShowProject

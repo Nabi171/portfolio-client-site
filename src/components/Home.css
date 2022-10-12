@@ -9,9 +9,17 @@ h5 {
     text-transform: none;
 }
 
+.bg-img{
+    background-image: url('../images/wave-haikei\ \(2\).png');
+    background-size: cover;
+    height: 90vh;
+    background-position-y: 70%;
+    background-repeat: no-repeat;
+}
+
 h5 span{
     color: red;
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 .bg-clor{
     background-color: 

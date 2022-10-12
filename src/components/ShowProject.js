@@ -8,7 +8,7 @@ const ShowProject = ({ project }) => {
   return (
     <div className='col-lg-4 col-sm-12 g-2 p-2 '>
 
-      <Card.Body className='bg-clor rounded'>
+      <Card.Body className='bg-dark rounded'>
         <Card.Title className="text-white "> <span className='bg-clor2'>{Name}</span> </Card.Title>
         <hr className='text-white' />
 

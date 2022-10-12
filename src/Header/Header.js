@@ -1,18 +1,32 @@
+import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { NavLink, Link } from 'react-router-dom';
+import '../Header/Header.css'
 const Header = () => {
     return (
         <div>
-            <Navbar bg="dark" variant="dark">
+            <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
                 <Container>
-                    <Nav className="mx-auto">
-                        <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-                        <Nav.Link href="#home">Home</Nav.Link>
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                    <div><Navbar.Brand href="#home">Nabiul-Portfolio</Navbar.Brand>
 
-                    </Nav>
+                    </div>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto fw-bold">
+                            <NavLink className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/mainHome">Home</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/projects">All-Projects</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/contact">Contact</NavLink >
+
+
+                        </Nav>
+                    </Navbar.Collapse>
                 </Container>
             </Navbar>
         </div>

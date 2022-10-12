@@ -1,0 +1,38 @@
+.navlink-container{
+    text-decoration: none;
+    
+    }
+    
+    .nav-link {
+    
+        color: #1BA098 !important;
+        font-weight: bold;
+    }
+    .text-title{
+        color:  #183a1d  !important;
+    }
+ 
+    .link{
+        text-decoration: none;
+        font-size:20px;
+        color:rgb(100, 105, 105);
+        font-weight: bold;
+        margin-left: 10px;
+    }
+    .active-link{
+        text-decoration: none;
+        font-size:20px;
+        color:  red  !important;
+        font-weight: bold;
+        margin-left: 5px;
+       
+    }
+
+
+    .nav-color{
+        background-color:#051622  ;
+    }
+
+    .nav-container{
+        position: fixed;
+    }
