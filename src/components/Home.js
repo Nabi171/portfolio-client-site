@@ -4,7 +4,6 @@ import img from '../images/side.png';
 import Particles from "react-tsparticles";
 import { loadFull } from 'tsparticles';
 import Footer from './Footer/Footer';
-
 const Home = () => {
 
     var TxtRotate = function (el, toRotate, period) {
@@ -158,6 +157,11 @@ const Home = () => {
 
 
             <div className="col-lg-6 col-sm-6 col-md-6">
+                <div >
+
+                    <h2 className='text-white' data-aos="fade-right"   >H<span className='text-danger'>i</span></h2>
+                    <hr className='text-white w-25 mx-auto' />
+                </div>
                 <h5 className='fw-bold text-white'>I am a
     <span className="txt-rotate ms-1" data-period="2000"
                         data-rotate='[ "JR. WEBDEVELOPER", "REACT JS DEVELOPER.", "MERN STACK DEVELOPER" ]'></span>
@@ -167,7 +171,10 @@ const Home = () => {
                 <img className='w-100' src={img} alt="" />
 
                 <br />
-                <button className='btn btn-info text-white shadow fw-bold mt-2'>Resume</button>
+
+                <>
+                    <a className='btn btn-info text-white shadow fw-bold mt-2' href='https://drive.google.com/file/d/17KzQJcrj8ix71Mtn3AAyj64kraaoXydr/view?fbclid=IwAR0DnaNCOhq-OFtux2HwXly0-mh__iyupMEGh51yDfXlD04_QY3SeFAaao4'>Resume</a>
+                </>
 
             </div>
             <Footer></Footer>

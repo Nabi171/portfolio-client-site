@@ -14,27 +14,27 @@ const Footer = () => {
         <MDBFooter className='text-center container' color='white'>
             <MDBContainer className='p-4'>
                 <section className='mb-4'>
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+                    <MDBBtn outline color="light" floating className='m-1' href='https://www.facebook.com/mohammad.nabiul.7' role='button'>
                         <MDBIcon className='text-info' fab icon='facebook-f' />
                     </MDBBtn>
 
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+                    {/* <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
                         <MDBIcon className='text-info' fab icon='twitter' />
-                    </MDBBtn>
+                    </MDBBtn> */}
 
                     <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
                         <MDBIcon className='text-danger' fab icon='google' />
                     </MDBBtn>
 
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+                    {/* <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
                         <MDBIcon fab icon='instagram' />
-                    </MDBBtn>
+                    </MDBBtn> */}
 
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+                    <MDBBtn outline color="light" floating className='m-1' href='https://www.linkedin.com/in/md-nabiul-173321214/' role='button'>
                         <MDBIcon fab className='text-info' icon='linkedin-in' />
                     </MDBBtn>
 
-                    <MDBBtn outline color="light" floating className='m-1' href='#!' role='button'>
+                    <MDBBtn outline color="light" floating className='m-1' href='https://github.com/Nabi171' role='button'>
                         <MDBIcon fab icon='github' />
                     </MDBBtn>
                 </section>

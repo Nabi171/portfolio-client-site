@@ -14,6 +14,7 @@
     -->
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -38,7 +39,28 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
+
     -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    // You can also pass an optional settings object
+    // below listed default settings
+    AOS.init({
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      duration: 400, // values from 0 to 3000, with step 50ms
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      animatedClassName: 'aos-animate', // class applied on animation
+      initClassName: 'aos-init', // class applied after initialization
+      useClassNames: false // if true, will add content of `data-aos` as classes on scroll
+    });
+  </script>
 </body>
 
 </html>

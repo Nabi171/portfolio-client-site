@@ -9,10 +9,10 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
                 <Container>
-                    <div><Navbar.Brand href="#home">Nabiul-Portfolio</Navbar.Brand>
+                    <div><Navbar.Brand href="#home">Nabiul-<span className='text-danger'>Portfolio</span></Navbar.Brand>
 
                     </div>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggleme' />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto fw-bold">
                             <NavLink className={({ isActive }) => isActive ? "active-link" : "link"}
@@ -23,7 +23,15 @@ const Header = () => {
                             <NavLink
                                 className={({ isActive }) => isActive ? "active-link" : "link"}
                                 to="/contact">Contact</NavLink >
-
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/mern">MernStacK</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/front">FrontEnd</NavLink >
+                            <NavLink
+                                className={({ isActive }) => isActive ? "active-link" : "link"}
+                                to="/tech">Technologies</NavLink >
 
                         </Nav>
                     </Navbar.Collapse>

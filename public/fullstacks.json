@@ -1,0 +1,35 @@
+[
+    {
+        "Name": "E-PHONES",
+        "id": 1,
+        "Type": "FULL-STACK PROJECT",
+        "live": "https://phone-stokes.web.app/",
+        "imageLink": "https://i.ibb.co/2P1tKML/i1.png",
+        "client": "https://github.com/Nabi171/Phone-stokes-client-side.git",
+        "server": "https://github.com/Nabi171/Phone-Stokes-Server-Side.git",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "BIKES- PORTAL",
+        "id": 2,
+        "Type": "FULL-STACK PROJECT",
+        "live": "https://bike-station-portal.web.app/",
+        "imageLink": "https://i.ibb.co/h8Kw9YY/p2.png",
+        "client": "https://github.com/Nabi171/bikes-manufacturer-client-site",
+        "server": "https://github.com/Nabi171/bikes-manufacturer-server-site",
+        "description": "This is a full stack project where you can see a plethora of.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    },
+    {
+        "Name": "PCIU-ALUMNI-ASSOCIATION",
+        "id": 3,
+        "Type": "FULL-STACK PROJECTR",
+        "live": "https://i.ibb.co/kDy0qtK/pcalumni.png",
+        "imageLink": "https://i.ibb.co/kDy0qtK/pcalumni.png",
+        "client": "https://github.com/Nabi171/PCIU-ALUMNI-SITE",
+        "server": "https://github.com/Nabi171/pciu-server-site",
+        "description": "This is a full stack project where you can see a plethora of.",
+        "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
+    }
+]
