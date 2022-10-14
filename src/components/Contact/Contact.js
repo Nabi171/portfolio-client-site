@@ -1,32 +1,40 @@
-import React from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import '../Contact/Contact.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Contact = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('service_12hw20i', 'template_vxrjxd5', form.current, 'JSvll9G-ID_UUDjhl')
+            .then((result) => {
+                console.log(result.text);
+                console.log("message sent");
+                toast.success("Thanks homourable for sent me email.i will knock you soon");
+            }, (error) => {
+                console.log(error.text);
+            });
+
+    };
+
     return (
         <div className='col-lg-7 mx-auto mt-5'>
-            <Form className='bg-dark p-5'>
-                <fieldset disabled>
-                    <Form.Group className="mb-3">
-                        <Form.Label htmlFor="disabledTextInput">Disabled input</Form.Label>
-                        <Form.Control id="disabledTextInput" placeholder="Disabled input" />
-                    </Form.Group>
-                    <Form.Group className="mb-3">
-                        <Form.Label htmlFor="disabledSelect">Disabled select menu</Form.Label>
-                        <Form.Select id="disabledSelect">
-                            <option>Disabled select</option>
-                        </Form.Select>
-                    </Form.Group>
-                    <Form.Group className="mb-3">
-                        <Form.Check
-                            type="checkbox"
-                            id="disabledFieldsetCheck"
-                            label="Can't check this"
-                        />
-                    </Form.Group>
-                    <Button type="submit">Submit</Button>
-                </fieldset>
-            </Form>
+            <h5 className='text-white mx-auto'>Write a message</h5>
+            <form className='bg-dark p-5 rounded ' ref={form} onSubmit={sendEmail}>
+                <label>Name</label>
+                <input type="text" name="user_name" />
+                <label>Email</label>
+                <input type="email" name="user_email" />
+                <label>Message</label>
+                <textarea name="message" />
+
+                <input className='btnform btn-info' type="submit" value="Send" />
+                <ToastContainer />
+
+            </form>
         </div>
     );
 };
