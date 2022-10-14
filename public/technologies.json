@@ -1,0 +1,67 @@
+[
+    {
+        "Name": "Html",
+        "id": 1,
+        "live": "https://i.ibb.co/fvhYSBn/html-removebg-preview.png"
+    },
+    {
+        "Name": "Css",
+        "id": 2,
+        "live": "https://i.ibb.co/zFtkPPT/css-removebg-preview.png"
+    },
+    {
+        "Name": "Js",
+        "id": 3,
+        "live": "https://i.ibb.co/RPkdxZz/js-removebg-preview.png"
+    },
+    {
+        "Name": "Bootstrap",
+        "id": 4,
+        "live": "https://i.ibb.co/xC8r7RN/botstrap-removebg-preview.png"
+    },
+    {
+        "Name": "Tailwind",
+        "id": 5,
+        "live": "https://i.ibb.co/rxS0hYs/tailwind-removebg-preview.png"
+    },
+    {
+        "Name": "React",
+        "id": 7,
+        "live": "https://i.ibb.co/rfRkx6D/react-removebg-preview.png"
+    },
+    {
+        "Name": "firebase",
+        "id": 8,
+        "live": "https://i.ibb.co/1z0WZpK/firebase-removebg-preview-1.png"
+    },
+    {
+        "Name": "express Js",
+        "id": 9,
+        "live": "https://i.ibb.co/LJt59MQ/express-removebg-preview.png"
+    },
+    {
+        "Name": "daisiUi",
+        "id": 10,
+        "live": "https://i.ibb.co/233SvGv/daisiui-removebg-preview.png"
+    },
+    {
+        "Name": "git",
+        "id": 11,
+        "live": "https://i.ibb.co/2MSGtfn/git-removebg-preview.png"
+    },
+    {
+        "Name": "github",
+        "id": 12,
+        "live": "https://i.ibb.co/0Y72wXZ/github-removebg-preview.png"
+    },
+    {
+        "Name": "heroku",
+        "id": 13,
+        "live": "https://i.ibb.co/wRvfXTq/heroku-removebg-preview.png"
+    },
+    {
+        "Name": "Netlify",
+        "id": 14,
+        "live": "https://i.ibb.co/Kjnkgc1/netlify-removebg-preview.png"
+    }
+]

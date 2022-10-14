@@ -168,7 +168,7 @@ const Home = () => {
                 </h5>
             </div>
             <div className="col-lg-6 col-sm-6 col-md-6">
-                <img className='w-100' src={img} alt="" />
+                <img className='w-100 img-anime bounce' src={img} alt="" />
 
                 <br />
 
