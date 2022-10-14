@@ -8,6 +8,7 @@ import Mainhome from './components/Manihome/Mainhome';
 import Contact from './components/Contact/Contact';
 import FullStackp from './components/FullStackp/FullStackp';
 import Technologies from './components/Technologies/Technologies';
+import FrontEnd from './components/FrontEnd/FrontEnd';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,7 @@ function App() {
         <Route path="/projects" element={<Projects />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/mern" element={<FullStackp />} />
+        <Route path="/frontEnd" element={<FrontEnd />} />
         <Route path="/tech" element={<Technologies />} />
       </Routes>
 

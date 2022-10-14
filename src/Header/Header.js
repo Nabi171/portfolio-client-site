@@ -28,7 +28,7 @@ const Header = () => {
                                 to="/mern">MernStacK</NavLink >
                             <NavLink
                                 className={({ isActive }) => isActive ? "active-link" : "link"}
-                                to="/front">FrontEnd</NavLink >
+                                to="/frontEnd">FrontEnd</NavLink >
                             <NavLink
                                 className={({ isActive }) => isActive ? "active-link" : "link"}
                                 to="/tech">Technologies</NavLink >

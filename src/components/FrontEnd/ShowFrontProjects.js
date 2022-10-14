@@ -1,8 +1,8 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-const ShowFullstack = ({ project }) => {
-    const { Name, id, Type, live, imageLink, description, implant, client, server } = project;
+const ShowFrontProjects = ({ project }) => {
+    const { Name, id, Type, live, imageLink, gitLink, description, implant } = project;
     return (
         <div className='col-lg-8 mx-auto col-sm-12 g-2 p-2 '>
 
@@ -19,18 +19,14 @@ const ShowFullstack = ({ project }) => {
                     <h6 className='text-white '> <span className='text-danger'>Technologies</span>  </h6>
                     <p className='text-white '> <span className=''>{implant}</span>  </p>
                 </Card.Text>
-                <Button variant="light">
-                    <a className='text-decoration-none fw-bold text-black' href={live}>Live Demo</a>
-                </Button>
-
                 <hr className='text-white' />
-                <h6 className='text-white '> <span className='text-danger'>GitHub Links</span>  </h6>
+                <h6 className='text-white '> <span className='text-danger'>Links</span>  </h6>
                 <div className='d-flex justify-content-between mt-3'>
                     <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={client}>Client-Side</a>
+                        <a className='text-decoration-none fw-bold text-black' href={live}>Client-Side</a>
                     </Button>
                     <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={server}>Server-Side</a>
+                        <a className='text-decoration-none fw-bold text-black' href={gitLink}>GitHub</a>
                     </Button>
 
                 </div>
@@ -39,4 +35,4 @@ const ShowFullstack = ({ project }) => {
     );
 };
 
-export default ShowFullstack;
+export default ShowFrontProjects;
