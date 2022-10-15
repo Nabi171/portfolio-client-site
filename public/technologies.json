@@ -40,28 +40,33 @@
         "live": "https://i.ibb.co/LJt59MQ/express-removebg-preview.png"
     },
     {
-        "Name": "daisiUi",
+        "Name": "mongoDb",
         "id": 10,
+        "live": "https://i.ibb.co/VxbYw3q/mongo-removebg-preview.png"
+    },
+    {
+        "Name": "daisiUi",
+        "id": 11,
         "live": "https://i.ibb.co/233SvGv/daisiui-removebg-preview.png"
     },
     {
         "Name": "git",
-        "id": 11,
+        "id": 12,
         "live": "https://i.ibb.co/2MSGtfn/git-removebg-preview.png"
     },
     {
         "Name": "github",
-        "id": 12,
+        "id": 13,
         "live": "https://i.ibb.co/0Y72wXZ/github-removebg-preview.png"
     },
     {
         "Name": "heroku",
-        "id": 13,
+        "id": 14,
         "live": "https://i.ibb.co/wRvfXTq/heroku-removebg-preview.png"
     },
     {
         "Name": "Netlify",
-        "id": 14,
+        "id": 15,
         "live": "https://i.ibb.co/Kjnkgc1/netlify-removebg-preview.png"
     }
 ]

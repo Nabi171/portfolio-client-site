@@ -21,8 +21,8 @@ const Contact = () => {
     };
 
     return (
-        <div className='col-lg-7 mx-auto mt-5'>
-            <h5 className='text-white mx-auto'>Write a message</h5>
+        <div className='col-lg-7 col-sm-9 col-9 mx-auto mt-5'>
+            <h5 className='text-colorfrmsg mx-auto fw-bold mb-3'>Write a message</h5>
             <form className='bg-dark p-5 rounded ' ref={form} onSubmit={sendEmail}>
                 <label>Name</label>
                 <input type="text" name="user_name" />

@@ -41,3 +41,11 @@
         color: aliceblue;
         background-color: aliceblue;
     }
+
+    .text-colorfrmsg{
+        color:rgb(100, 105, 105);
+    }
+    .text-colorfrmsg:hover{
+        color:white;
+    }
+   

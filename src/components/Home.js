@@ -79,7 +79,7 @@ const Home = () => {
 
 
     return (
-        <div className='row align-items-center bg-clor bg-img'>
+        <div className='row align-items-center bg-clor bg-img mt-3'>
 
             <Particles
                 id="tsparticles"
@@ -156,7 +156,7 @@ const Home = () => {
             />
 
 
-            <div className="col-lg-6 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-10 mx-auto col-sm-10 col-md-6">
                 <div >
 
                     <h2 className='text-white' data-aos="fade-right"   >H<span className='text-danger'>i</span></h2>
@@ -167,7 +167,7 @@ const Home = () => {
                         data-rotate='[ "JR. WEBDEVELOPER", "REACT JS DEVELOPER.", "MERN STACK DEVELOPER" ]'></span>
                 </h5>
             </div>
-            <div className="col-lg-6 col-sm-6 col-md-6">
+            <div className="col-lg-6 col-10 mx-auto col-sm-10 col-md-6">
                 <img className='w-100 img-anime bounce' src={img} alt="" />
 
                 <br />

@@ -12,7 +12,10 @@ const Header = () => {
                     <div><Navbar.Brand href="#home">Nabiul-<span className='text-danger'>Portfolio</span></Navbar.Brand>
 
                     </div>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggleme' />
+
+
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggleme bg-white' />
+
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto fw-bold">
                             <NavLink className={({ isActive }) => isActive ? "active-link" : "link"}
