@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import Header from './Header/Header';
+import Header from './Header/Header';
 import Projects from './components/Projects';
 import { Routes, Route } from 'react-router';
 import Mainhome from './components/Manihome/Mainhome';
@@ -13,7 +13,7 @@ import Newsidebar from './components/Newsidebar/Newsidebar';
 function App() {
   return (
     <div className="App">
-      {/* <Header></Header> */}
+      <Header></Header>
       <Newsidebar></Newsidebar>
       <Routes>
         <Route path="/" element={<Mainhome />} />

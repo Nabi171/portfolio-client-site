@@ -6,7 +6,7 @@ import { NavLink, Link } from 'react-router-dom';
 import '../Header/Header.css'
 const Header = () => {
     return (
-        <div>
+        <div className='mainHeader'>
             <Navbar collapseOnSelect expand="lg" bg="black" variant="dark" >
                 <Container>
                     <div><Navbar.Brand href="#home">Nabiul-<span className='text-danger'>Portfolio</span></Navbar.Brand>

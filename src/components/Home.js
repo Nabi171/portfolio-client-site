@@ -168,12 +168,12 @@ const Home = () => {
                 </h5>
             </div>
             <div className="col-lg-6 col-10 mx-auto col-sm-10 col-md-6">
-                <img className='w-100 img-anime bounce' src={img} alt="" />
+                <img className='w-100 img-anime bounce mx-auto' src={img} alt="" />
 
                 <br />
 
                 <>
-                    <a className='btn btn-info text-white shadow fw-bold mt-2' href='https://drive.google.com/file/d/17KzQJcrj8ix71Mtn3AAyj64kraaoXydr/view?fbclid=IwAR0DnaNCOhq-OFtux2HwXly0-mh__iyupMEGh51yDfXlD04_QY3SeFAaao4'>Resume</a>
+                    <a className='btn btn-info mx-auto text-white shadow fw-bold mt-2' href='https://drive.google.com/file/d/17KzQJcrj8ix71Mtn3AAyj64kraaoXydr/view?fbclid=IwAR0DnaNCOhq-OFtux2HwXly0-mh__iyupMEGh51yDfXlD04_QY3SeFAaao4'>Resume</a>
                 </>
 
             </div>

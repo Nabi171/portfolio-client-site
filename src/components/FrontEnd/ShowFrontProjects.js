@@ -6,7 +6,7 @@ const ShowFrontProjects = ({ project }) => {
     return (
         <div className='col-lg-8 mx-auto col-md-10 col-sm-10 col-9 g-2 p-2 '>
 
-            <Card.Body className='bg-dark rounded'>
+            <Card.Body className='bg-black rounded border'>
                 <Card.Title className="text-white "> <span className='text-danger'>{Name}</span> </Card.Title>
                 <hr className='text-white' />
 
@@ -25,7 +25,7 @@ const ShowFrontProjects = ({ project }) => {
                     <Button variant="light">
                         <a className='text-decoration-none fw-bold text-black' href={live}>Client-Side</a>
                     </Button>
-                    <Button variant="light">
+                    <Button variant="light" className='ms-1'>
                         <a className='text-decoration-none fw-bold text-black' href={gitLink}>GitHub</a>
                     </Button>
 

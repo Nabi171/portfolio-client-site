@@ -5,7 +5,7 @@ const ShowTech = ({ project }) => {
     const { Name, id, live } = project;
     return (
         <div className='col-lg-3 col-sm-6 col-8 mx-auto col-md-4 g-4'>
-            <Card.Body className='bg-dark rounded'>
+            <Card.Body className='bg-black border rounded'>
                 <img className='imagesforp' src={live} alt="" />
 
                 <hr className='text-white' />

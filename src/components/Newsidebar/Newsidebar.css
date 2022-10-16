@@ -76,3 +76,37 @@
     padding: 0 12px 15px;
   }
   
+
+
+  @media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+ 
+    /* .mainHeader{
+      display: none;
+    } */
+    .page {
+      display: none;
+   }
+   .headerText{
+    display: none;
+  }
+
+}
+@media only screen and (max-width: 600px){
+  /*Big smartphones [426px -> 600px]*/
+  /* .mainHeader{
+    display: none;
+  } */
+  
+  
+}
+@media only screen and (max-width: 425px){
+  /*Small smartphones [325px -> 425px]*/
+  .page{
+    display: none;
+  
+  }
+  .headerText{
+    display: none;
+  }
+}

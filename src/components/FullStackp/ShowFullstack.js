@@ -4,9 +4,9 @@ import Card from 'react-bootstrap/Card';
 const ShowFullstack = ({ project }) => {
     const { Name, id, Type, live, imageLink, description, implant, client, server } = project;
     return (
-        <div className='col-lg-8 mx-auto col-md-10 col-sm-10 col-9 g-2 p-2 '>
+        <div className='col-lg-8 mx-auto col-md-10 col-sm-11 col-11 g-2 p-2 '>
 
-            <Card.Body className='bg-dark rounded'>
+            <Card.Body className='bg-black rounded border'>
                 <Card.Title className="text-white "> <span className='text-danger'>{Name}</span> </Card.Title>
                 <hr className='text-white' />
 
