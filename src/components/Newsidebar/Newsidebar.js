@@ -29,7 +29,7 @@ const Newsidebar = () => {
                     <div className="trigger" onClick={handleTrigger}>
                         <FontAwesomeIcon icon={isOpen ? faTimes : faBars} />
                     </div>
-                    <NavLink className="sidebar-position" to='/mainHome'>
+                    <NavLink className="sidebar-position" to='/'>
                         <FontAwesomeIcon icon={faHome} />
                         <span>Home</span>
                     </NavLink>
