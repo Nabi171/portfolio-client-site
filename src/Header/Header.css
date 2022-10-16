@@ -49,37 +49,3 @@
         color:white;
     }
    
-    /* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {  
-    .page {
-       display: none;
-    }
-
-    
-  }
-  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
-  @media (min-width: 768px) {
-    /* .mainHeader{
-        display: none;
-    } */
-   
-
-  }
-  /* Large devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-.mainHeader{
-    display: none;
-}
-.page{
-    display: block;
-}
-  }
-  /* Extra large devices (large desktops, 1200px and up) */
-  @media (min-width: 1200px) {
-    .mainHeader{
-        display: none;
-    }
-    .page{
-        display: block;
-    }
-  }
