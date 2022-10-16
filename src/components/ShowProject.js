@@ -6,7 +6,7 @@ const ShowProject = ({ project }) => {
   const { Name, id, Type, live, imageLink, description, implant } = project;
 
   return (
-    <div className='col-lg-4 col-sm-8 mx-auto col-8 g-2  p-2 card-allog'>
+    <div className='col-lg-4 col-sm-11 mx-auto col-11 g-2  p-2 card-allog'>
 
       <Card.Body className='bg-black rounded border'>
         <Card.Title className="text-colorfrmsg "> <span className='text-white'>{Name}</span> </Card.Title>
