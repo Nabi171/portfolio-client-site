@@ -159,7 +159,7 @@ const Home = () => {
             <div className="col-lg-6 col-10 mx-auto col-sm-10 col-md-6">
                 <div >
 
-                    <h2 className='text-white' data-aos="fade-right"   >H<span className='text-danger'>i</span></h2>
+                    <h2 className='text-white' data-aos="fade-right"   >H<span className='text-clor-for-all'>i</span></h2>
                     <hr className='text-white w-25 mx-auto' />
                 </div>
                 <h5 className='fw-bold text-white'>I am a
