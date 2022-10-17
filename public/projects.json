@@ -2,7 +2,7 @@
     {
         "Name": "E-PHONES",
         "id": 1,
-        "Type": "FULL-STACK PROJECTR",
+        "Type": "FULL-STACK PROJECT",
         "live": "https://phone-stokes.web.app/",
         "imageLink": "https://i.ibb.co/2P1tKML/i1.png",
         "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
@@ -11,16 +11,16 @@
     {
         "Name": "BIKES- PORTAL",
         "id": 2,
-        "Type": "FULL-STACK PROJECTR",
+        "Type": "FULL-STACK PROJECT",
         "live": "https://bike-station-portal.web.app/",
         "imageLink": "https://i.ibb.co/h8Kw9YY/p2.png",
-        "description": "This is a full stack project where you can see a plethora of.",
+        "description": "This is a full stack project where you can see a plethora of sections.In this site added admin route where admin can add any parts of bike.Here customer or any user purchase any part of bike which is needed to the user,besides if you want to purchase or buy any part of bikes you have to login first.Then you can purchase any projects where data are mainly loaded from mongodb.",
         "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
     },
     {
         "Name": "SCIENTIFIC ZONE",
         "id": 3,
-        "Type": "FRONT END PROJECTR",
+        "Type": "FRONT END PROJECT",
         "live": "https://techno-fdaab.web.app/",
         "imageLink": "https://i.ibb.co/pbsbkFg/p3.png",
         "description": "This is a full stack project where in this site you can check out  any scientific tool if you where new user you have to login first. after login you can purchase any scientific products..",
@@ -38,7 +38,7 @@
     {
         "Name": "PCIU-ALUMNI-ASSOCIATION",
         "id": 5,
-        "Type": "FULL-STACK PROJECTR",
+        "Type": "FULL-STACK PROJECT",
         "live": "https://i.ibb.co/kDy0qtK/pcalumni.png",
         "imageLink": "https://i.ibb.co/kDy0qtK/pcalumni.png",
         "client": "https://github.com/Nabi171/PCIU-ALUMNI-SITE",
