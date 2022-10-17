@@ -20,21 +20,21 @@ const ShowFullstack = ({ project }) => {
                     <p className='text-white text-start'> <span className=''>{implant}</span>  </p>
                 </Card.Text>
                 <div className='text-start'>
-                    <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={live}>Live Demo</a>
-                    </Button>
+                    <button className='btn btn-outline-light'>
+                        <a className='text-decoration-none fw-bold text-white' href={live}>Live Demo</a>
+                    </button>
                 </div>
 
                 <hr className='text-white' />
                 <h6 className='text-white '> <span className='text-clor-for-all'>GitHub Links</span>  </h6>
                 <div className='d-flex justify-content-between mt-3'>
-                    <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={client}>Client-Side</a>
-                    </Button>
-                    <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={server}>Server-Side</a>
-                    </Button>
 
+                    <button className='btn btn-outline-light'>
+                        <a className='text-decoration-none fw-bold text-white' href={client}>Client-Side</a>
+                    </button>
+                    <button className='btn btn-outline-light'>
+                        <a className='text-decoration-none fw-bold text-white' href={server}>Server-Side</a>
+                    </button>
                 </div>
             </Card.Body>
         </div>

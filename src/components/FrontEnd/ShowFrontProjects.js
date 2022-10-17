@@ -22,13 +22,14 @@ const ShowFrontProjects = ({ project }) => {
                 <hr className='text-white' />
                 <h6 className='text-white '> <span className='text-clor-for-all'>Links</span>  </h6>
                 <div className='d-flex justify-content-between mt-3'>
-                    <Button variant="light">
-                        <a className='text-decoration-none fw-bold text-black' href={live}>Client-Side</a>
-                    </Button>
-                    <Button variant="light" className='ms-1'>
-                        <a className='text-decoration-none fw-bold text-black' href={gitLink}>GitHub</a>
-                    </Button>
 
+                    <button className='btn btn-outline-light'>
+                        <a className='text-decoration-none fw-bold text-white' href={live}>Clinet-Side</a>
+                    </button>
+
+                    <button className='btn btn-outline-light'>
+                        <a className='text-decoration-none fw-bold text-white' href={gitLink}>GitHub</a>
+                    </button>
                 </div>
             </Card.Body>
         </div>

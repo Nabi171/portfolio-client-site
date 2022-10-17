@@ -19,10 +19,10 @@ const ShowProject = ({ project }) => {
         <Card.Text>
           <h6 className='text-clor-for-all '> <span className='text-clor-for-all'>{Type}</span>  </h6>
         </Card.Text>
-        <Button variant="light">
-          <a className='text-decoration-none fw-bold text-black' href={live}>Live Demo</a>
-        </Button>
 
+        <button className='btn btn-outline-light'>
+          <a className='text-decoration-none fw-bold text-white' href={live}>Live Demo</a>
+        </button>
       </Card.Body>
     </div>
   );

@@ -39,7 +39,7 @@ const Contact = () => {
                         <label>Message</label>
                         <textarea name="message" />
 
-                        <input className='btnform btn-info' type="submit" value="Send" />
+                        <input className='btn btn-outline-info mt-3' type="submit" value="Send" />
                         <ToastContainer />
 
                     </form>

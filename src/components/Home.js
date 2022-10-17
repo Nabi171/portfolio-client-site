@@ -173,7 +173,7 @@ const Home = () => {
                 <br />
 
                 <>
-                    <a className='btn btn-info mx-auto text-white shadow fw-bold mt-2' href='https://drive.google.com/file/d/17KzQJcrj8ix71Mtn3AAyj64kraaoXydr/view?fbclid=IwAR0DnaNCOhq-OFtux2HwXly0-mh__iyupMEGh51yDfXlD04_QY3SeFAaao4'>Resume</a>
+                    <a className='btn btn-outline-info mx-auto text-white shadow fw-bold mt-2' href='https://drive.google.com/file/d/17KzQJcrj8ix71Mtn3AAyj64kraaoXydr/view?fbclid=IwAR0DnaNCOhq-OFtux2HwXly0-mh__iyupMEGh51yDfXlD04_QY3SeFAaao4'>Resume</a>
                 </>
 
             </div>

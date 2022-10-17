@@ -6,7 +6,7 @@
         "live": "https://techno-fdaab.web.app/",
         "imageLink": "https://i.ibb.co/pbsbkFg/p3.png",
         "gitLink": "https://github.com/Nabi171/scientific-zone",
-        "description": "This is a full stack project where in this site you can check out  any scientific tool if you where new user you have to login first. after login you can purchase any scientific products..",
+        "description": "This is mainly made with react where added some section anyone can checkout machinery from the site and can checkout any product where he/she have to logins as a first user the he can purchase the product",
         "implant": "  React, React Router,React Bootstrap,firebase"
     },
     {
