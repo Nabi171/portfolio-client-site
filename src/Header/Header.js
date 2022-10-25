@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { NavLink, Link } from 'react-router-dom';
 import '../Header/Header.css'
+import { MDBIcon } from 'mdb-react-ui-kit';
 const Header = () => {
     return (
         <div className='mainHeader'>
@@ -14,7 +15,10 @@ const Header = () => {
                     </div>
 
 
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggleme bg-white' />
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" className='toggleme bg-light p-2' >
+                        <MDBIcon className='text-danger' fas icon="align-justify" />
+                      
+                    </Navbar.Toggle>
 
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="ms-auto fw-bold">
