@@ -124,7 +124,7 @@
         "Type": "FRONTEND PROJECT",
         "live": "https://nabi171.github.io/Assignment-202/",
         "imageLink": "https://i.ibb.co/M6SFrWC/influencer.png",
-        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "description": "This is a influencer project which is mainly made in pure html and css,no framework added this site.",
         "implant": " Html,css and css animation"
     }
 ]
