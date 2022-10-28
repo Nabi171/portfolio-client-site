@@ -47,8 +47,17 @@
         "implant": " React, React Router,React Bootstrap, Node, MongoDB, Express, JSON web token, Firebase, Dot env"
     },
     {
-        "Name": "CONVENTION CENTER",
+        "Name": "REDUX-CALCULATOR",
         "id": 6,
+        "Type": "FRONT END PROJECT",
+        "live": "https://calculator343.netlify.app/",
+        "imageLink": "https://i.ibb.co/zSdwJJL/calculator.png",
+        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "implant": " html,css and bootstrap"
+    },
+    {
+        "Name": "CONVENTION CENTER",
+        "id": 7,
         "Type": "FRONT END PROJECT",
         "live": "https://cranky-saha-bef298.netlify.app/",
         "imageLink": "https://i.ibb.co/PjvzqBt/p5.png",
@@ -57,7 +66,7 @@
     },
     {
         "Name": "Bengos Phones",
-        "id": 7,
+        "id": 8,
         "Type": "FRONT END PROJECT",
         "live": "https://phones69.netlify.app/",
         "imageLink": "https://i.ibb.co/NKYBSL4/p6.png",
@@ -66,7 +75,7 @@
     },
     {
         "Name": "ALKESTRICO LIBRARY",
-        "id": 8,
+        "id": 9,
         "Type": "FRONT END PROJECT",
         "live": "https://bright-smakager-969b6d.netlify.app/#home",
         "imageLink": "https://i.ibb.co/dbFsxnB/dfe.png",
@@ -75,7 +84,7 @@
     },
     {
         "Name": "CAR PARK",
-        "id": 9,
+        "id": 10,
         "Type": "FRONT END PROJECT",
         "live": "https://harmonious-lolly-1fdae9.netlify.app/home",
         "imageLink": "https://i.ibb.co/WgDQtwv/p11.png",
@@ -84,7 +93,7 @@
     },
     {
         "Name": "Copa",
-        "id": 10,
+        "id": 11,
         "Type": "FRONT END FIRST PROJECT",
         "live": "https://nabi171.github.io/assignment-ripo-2/",
         "imageLink": "https://i.ibb.co/4RqGwwt/11.png",
@@ -93,7 +102,7 @@
     },
     {
         "Name": "HONDA BRS",
-        "id": 11,
+        "id": 12,
         "Type": "FRONT END FIRST PROJECT",
         "live": "https://cocky-jones-531f2f.netlify.app/",
         "imageLink": "https://i.ibb.co/zn6DzDH/12.png",
@@ -102,7 +111,7 @@
     },
     {
         "Name": "FIRE GUN",
-        "id": 12,
+        "id": 13,
         "Type": "FRONT END FIRST PROJECT",
         "live": "https://thunderous-choux-34f13a.netlify.app/",
         "imageLink": "https://i.ibb.co/s59Prvp/15.png",
@@ -111,7 +120,7 @@
     },
     {
         "Name": "EMA STORE",
-        "id": 13,
+        "id": 14,
         "Type": "FRONT END FIRST PROJECT",
         "live": "https://sensational-froyo-b6dfd0.netlify.app/",
         "imageLink": "https://i.ibb.co/cXFmkjX/17.png",
@@ -120,7 +129,7 @@
     },
     {
         "Name": "AL-HADAF FOUNDATION",
-        "id": 14,
+        "id": 15,
         "Type": "FRONT END FIRST PROJECT",
         "live": "https://ahf.netlify.app/index.html",
         "imageLink": "https://i.ibb.co/ftxFwCh/ahf.png",
@@ -129,7 +138,7 @@
     },
     {
         "Name": "INFLUENCER PRODUCTS",
-        "id": 15,
+        "id": 16,
         "Type": "FRONTEND PROJECT",
         "live": "https://nabi171.github.io/Assignment-202/",
         "imageLink": "https://i.ibb.co/M6SFrWC/influencer.png",
