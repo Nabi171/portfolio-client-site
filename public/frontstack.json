@@ -76,7 +76,7 @@
         "live": "https://nabi171.github.io/assignment-ripo-2/",
         "imageLink": "https://i.ibb.co/4RqGwwt/11.png",
         "gitLink": "https://github.com/Nabi171/assignment-ripo-2",
-        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "description": "This is one of my first project which is mainly created in pure html and css,no framework added for this site",
         "implant": " html,css"
     },
     {
@@ -86,7 +86,7 @@
         "live": "https://cocky-jones-531f2f.netlify.app/",
         "imageLink": "https://i.ibb.co/zn6DzDH/12.png",
         "gitLink": "https://github.com/Nabi171/geneius-car-server",
-        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "description": "This is a front end projet which is a static site where you know about honda feature.",
         "implant": " html,css and Bootstrap"
     },
     {
