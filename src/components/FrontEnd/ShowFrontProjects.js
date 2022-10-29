@@ -1,12 +1,11 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 const ShowFrontProjects = ({ project }) => {
     const { Name, id, Type, live, imageLink, gitLink, description, implant } = project;
     return (
         <div className='col-lg-8 mx-auto col-md-10 col-sm-12 col-12 g-2 p-2 '>
 
-            <Card.Body className='bg-black rounded border'>
+            <Card.Body className='bg-black rounded border '>
                 <Card.Title className="text-white "> <span className='text-clor-for-all'>{Name}</span> </Card.Title>
                 {/* <hr className='text-white' /> */}
 
@@ -35,5 +34,4 @@ const ShowFrontProjects = ({ project }) => {
         </div>
     );
 };
-
 export default ShowFrontProjects;

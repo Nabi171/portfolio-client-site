@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './Header/Header';
@@ -10,6 +9,7 @@ import FullStackp from './components/FullStackp/FullStackp';
 import Technologies from './components/Technologies/Technologies';
 import FrontEnd from './components/FrontEnd/FrontEnd';
 import Newsidebar from './components/Newsidebar/Newsidebar';
+import NotFound from './components/NotFound/NotFound';
 function App() {
   return (
     <div className="App">
@@ -23,6 +23,7 @@ function App() {
         <Route path="/mern" element={<FullStackp />} />
         <Route path="/frontEnd" element={<FrontEnd />} />
         <Route path="/tech" element={<Technologies />} />
+        <Route path="*" element={<NotFound></NotFound>}></Route>
       </Routes>
 
     </div>

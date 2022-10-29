@@ -56,7 +56,7 @@
         "live": "https://bright-smakager-969b6d.netlify.app/#home",
         "imageLink": "https://i.ibb.co/dbFsxnB/dfe.png",
         "gitLink": "https://github.com/Nabi171/Alkestrico-De-library",
-        "description": "This is a full stack project where you can see a plethora of sections where you can update phones quantity and you can  deliver a phone which you wish . if you visit this site you have to login first then you can add any phone and update the quantity of phones number.",
+        "description": "This is a front end project which is mainly made in react application where anyone purchase any kinds of books which you needed,but backend integration needed for this site.",
         "implant": " html,css,javascript and react"
     },
     {
